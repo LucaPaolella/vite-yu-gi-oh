@@ -26,3 +26,22 @@ main {
 .title-research>h4 {
     color: white;
 }
+
+.container-singles {
+    flex-wrap: wrap;
+}
+
+.singles {
+    width: calc(100% / 5);
+}
+
+.single {
+    background-color: orange;
+    margin: 10px;
+    height: 500px;
+}
+
+.single>h3,
+.single>p {
+    color: white;
+}

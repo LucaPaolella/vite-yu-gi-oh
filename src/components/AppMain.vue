@@ -32,10 +32,14 @@ export default {
                 <div class="title-research flex">
                     <h4>Found 39 cards</h4>
                 </div>
-                <div v-for="card in cards" :key="card.id">
-                    <h3>{{ card.name }}</h3>
-                    <p>{{ card.type }}</p>
-                    <p>{{ card.desc }}</p>
+                <div class="container-singles flex">
+                    <div class="singles " v-for="card in cards" :key="card.id">
+                        <div class="single">
+                            <h3>{{ card.name }}</h3>
+                            <p>{{ card.type }}</p>
+                            <!--<p>{{ card.desc }}</p>-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
