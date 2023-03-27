@@ -1,6 +1,14 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+
+export default {
+    name: "vite-yu-gi-oh",
+    components: {
+        AppHeader,
+        AppMain,
+    }
+}
 </script>
 
 <template>
@@ -8,4 +16,6 @@ import AppMain from './components/AppMain.vue';
     <AppMain />
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+@import "./assets/main.scss";
+</style>
